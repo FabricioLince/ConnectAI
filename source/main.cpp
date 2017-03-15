@@ -8,7 +8,7 @@ int main(int argc, char** argv)
 {
     try
     {
-        bool qof = false;
+        bool qof = false; //quit on finish flag
         if (argc == 3 && argv[2][0] == '1') qof = true;
 
         LL_AI ai(argv[1]);
@@ -25,6 +25,8 @@ int main(int argc, char** argv)
     return 0;
 }
 
+
+/// The "main" functions from down here were tests done during development that I didn't really feel like removing after shipping
 
 int main__()
 {
